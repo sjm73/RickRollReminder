@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA23CE621B6964C600D07E10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA23CE611B6964C600D07E10 /* main.m */; };
+		AA23CE651B6964C600D07E10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA23CE641B6964C600D07E10 /* AppDelegate.m */; };
+		AA23CE671B6964C600D07E10 /* RickRollReminder-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = AA23CE661B6964C600D07E10 /* RickRollReminder-Prefix.pch */; };
+		AA23CE691B6964C600D07E10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA23CE681B6964C600D07E10 /* Images.xcassets */; };
+		AA23CE6C1B6964C700D07E10 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA23CE6A1B6964C700D07E10 /* LaunchScreen.xib */; };
+		AA23CE781B6964C700D07E10 /* RickRollReminderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA23CE771B6964C700D07E10 /* RickRollReminderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA23CE721B6964C700D07E10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA23CE541B6964C600D07E10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA23CE5B1B6964C600D07E10;
+			remoteInfo = RickRollReminder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA23CE5C1B6964C600D07E10 /* RickRollReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickRollReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA23CE601B6964C600D07E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA23CE611B6964C600D07E10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA23CE631B6964C600D07E10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA23CE641B6964C600D07E10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA23CE661B6964C600D07E10 /* RickRollReminder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RickRollReminder-Prefix.pch"; sourceTree = "<group>"; };
+		AA23CE681B6964C600D07E10 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AA23CE6B1B6964C700D07E10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AA23CE711B6964C700D07E10 /* RickRollReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RickRollReminderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA23CE761B6964C700D07E10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA23CE771B6964C700D07E10 /* RickRollReminderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RickRollReminderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA23CE591B6964C600D07E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA23CE6E1B6964C700D07E10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA23CE531B6964C600D07E10 = {
+			isa = PBXGroup;
+			children = (
+				AA23CE5E1B6964C600D07E10 /* RickRollReminder */,
+				AA23CE741B6964C700D07E10 /* RickRollReminderTests */,
+				AA23CE5D1B6964C600D07E10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA23CE5D1B6964C600D07E10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA23CE5C1B6964C600D07E10 /* RickRollReminder.app */,
+				AA23CE711B6964C700D07E10 /* RickRollReminderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA23CE5E1B6964C600D07E10 /* RickRollReminder */ = {
+			isa = PBXGroup;
+			children = (
+				AA23CE631B6964C600D07E10 /* AppDelegate.h */,
+				AA23CE641B6964C600D07E10 /* AppDelegate.m */,
+				AA23CE661B6964C600D07E10 /* RickRollReminder-Prefix.pch */,
+				AA23CE681B6964C600D07E10 /* Images.xcassets */,
+				AA23CE6A1B6964C700D07E10 /* LaunchScreen.xib */,
+				AA23CE5F1B6964C600D07E10 /* Supporting Files */,
+			);
+			path = RickRollReminder;
+			sourceTree = "<group>";
+		};
+		AA23CE5F1B6964C600D07E10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA23CE601B6964C600D07E10 /* Info.plist */,
+				AA23CE611B6964C600D07E10 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA23CE741B6964C700D07E10 /* RickRollReminderTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA23CE771B6964C700D07E10 /* RickRollReminderTests.m */,
+				AA23CE751B6964C700D07E10 /* Supporting Files */,
+			);
+			path = RickRollReminderTests;
+			sourceTree = "<group>";
+		};
+		AA23CE751B6964C700D07E10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA23CE761B6964C700D07E10 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA23CE5B1B6964C600D07E10 /* RickRollReminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA23CE7B1B6964C700D07E10 /* Build configuration list for PBXNativeTarget "RickRollReminder" */;
+			buildPhases = (
+				AA23CE581B6964C600D07E10 /* Sources */,
+				AA23CE591B6964C600D07E10 /* Frameworks */,
+				AA23CE5A1B6964C600D07E10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RickRollReminder;
+			productName = RickRollReminder;
+			productReference = AA23CE5C1B6964C600D07E10 /* RickRollReminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA23CE701B6964C700D07E10 /* RickRollReminderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA23CE7E1B6964C700D07E10 /* Build configuration list for PBXNativeTarget "RickRollReminderTests" */;
+			buildPhases = (
+				AA23CE6D1B6964C700D07E10 /* Sources */,
+				AA23CE6E1B6964C700D07E10 /* Frameworks */,
+				AA23CE6F1B6964C700D07E10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA23CE731B6964C700D07E10 /* PBXTargetDependency */,
+			);
+			name = RickRollReminderTests;
+			productName = RickRollReminderTests;
+			productReference = AA23CE711B6964C700D07E10 /* RickRollReminderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA23CE541B6964C600D07E10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Big Nerd Ranch";
+				TargetAttributes = {
+					AA23CE5B1B6964C600D07E10 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					AA23CE701B6964C700D07E10 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = AA23CE5B1B6964C600D07E10;
+					};
+				};
+			};
+			buildConfigurationList = AA23CE571B6964C600D07E10 /* Build configuration list for PBXProject "RickRollReminder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA23CE531B6964C600D07E10;
+			productRefGroup = AA23CE5D1B6964C600D07E10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA23CE5B1B6964C600D07E10 /* RickRollReminder */,
+				AA23CE701B6964C700D07E10 /* RickRollReminderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA23CE5A1B6964C600D07E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA23CE671B6964C600D07E10 /* RickRollReminder-Prefix.pch in Resources */,
+				AA23CE6C1B6964C700D07E10 /* LaunchScreen.xib in Resources */,
+				AA23CE691B6964C600D07E10 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA23CE6F1B6964C700D07E10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA23CE581B6964C600D07E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA23CE651B6964C600D07E10 /* AppDelegate.m in Sources */,
+				AA23CE621B6964C600D07E10 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA23CE6D1B6964C700D07E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA23CE781B6964C700D07E10 /* RickRollReminderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA23CE731B6964C700D07E10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA23CE5B1B6964C600D07E10 /* RickRollReminder */;
+			targetProxy = AA23CE721B6964C700D07E10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA23CE6A1B6964C700D07E10 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA23CE6B1B6964C700D07E10 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA23CE791B6964C700D07E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA23CE7A1B6964C700D07E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA23CE7C1B6964C700D07E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RickRollReminder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AA23CE7D1B6964C700D07E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RickRollReminder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AA23CE7F1B6964C700D07E10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RickRollReminderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RickRollReminder.app/RickRollReminder";
+			};
+			name = Debug;
+		};
+		AA23CE801B6964C700D07E10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RickRollReminderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RickRollReminder.app/RickRollReminder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA23CE571B6964C600D07E10 /* Build configuration list for PBXProject "RickRollReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA23CE791B6964C700D07E10 /* Debug */,
+				AA23CE7A1B6964C700D07E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA23CE7B1B6964C700D07E10 /* Build configuration list for PBXNativeTarget "RickRollReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA23CE7C1B6964C700D07E10 /* Debug */,
+				AA23CE7D1B6964C700D07E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA23CE7E1B6964C700D07E10 /* Build configuration list for PBXNativeTarget "RickRollReminderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA23CE7F1B6964C700D07E10 /* Debug */,
+				AA23CE801B6964C700D07E10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA23CE541B6964C600D07E10 /* Project object */;
+}
